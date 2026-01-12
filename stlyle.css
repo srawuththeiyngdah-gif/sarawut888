@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.comtainer{
+        max-width: 1140px;
+        margin: 0 auto;
+}
+
+nav{
+    padding: 1rem;
+    background-color: #b3d4df;
+}
+
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Logo a{
+    font-size: 2rem;
+    color: rgb(6, 3, 14);
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.menu li{
+    margin: 0 2rem; 
+}
+
+.menu li a{
+    color: rgba(10, 2, 2, 0.815);
+    text-decoration: none;
+}
+
+.maincontent{
+    background-color: rgb(138, 168, 163);
+}
+
+.maincontent-con{
+    display: flex;
+}
+
+.maincontent-info{
+    width :100%;
+    padding: 2rem;
+}
+
+.maincontent-info h3{
+    font-size: 2rem;
+}
+
+.maincontent-info p{
+    margin: 1rem 0 ;
+}
+
+.maincontent-info .maincontent-btn{
+    background-color: rgb(196, 60, 60);
+    color: black;
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.maincontent-img{
+    width: 100%;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+.content-con{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     column-gap: Srem;
+    
+}
+
+.comtent-item img{
+    width: 70%;
+}
+    
+.content-item h4{
+    margin: 1rem 0;
+}
+
+.content-item p{
+    margin: 1rem 0;
+}
+
+.content-item a{
+    display: inline-block;
+    color: rgb(51, 59, 16);
+    background-color: #95b4af;
+    padding: 0.5rem 0.5rem;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.footer-top{
+    margin-top: 2rem;
+    padding: 2rem;
+    background-color:   rgb(144, 172, 172);
+    color: black;
+}
+
+
+.footer-top-con{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.footer-top-item-con{
+    display: flex;
+    margin: 1fem 0;
+}
+
+.footer-top-item-con .date{
+    background-color: #c7c7c7;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.footer-top-item :nth-child(2) h4
+.footer-top-item :nth-child(3) h4{
+    margin-bottom:1rem ;
+}
+
+.footer-button{
+    background-color: aliceblue;
+    padding: 1rem;
+    text-align: center;
+    
+}
